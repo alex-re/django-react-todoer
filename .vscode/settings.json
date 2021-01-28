@@ -1,0 +1,20 @@
+{
+  "python.pythonPath": "~/w/venvs/djenv/bin/python",
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django,pylint_celery",
+  ],
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "todohighlight.keywords": [
+      {
+          "text": "TODO:",
+          "color": "yellow",
+          "backgroundColor": "#545686",
+          // "border": "1px solid red",
+          "borderRadius": "3px",
+      }
+  ],
+}
